@@ -14,7 +14,7 @@ const PointsAddedModal: FC<PointsAddedModalProps> = (props) => {
   return (
     <Modal show={isVisible} onHide={() => close()}>
       <Modal.Body className="text-center">
-        {addedAmount} points added to team {teamName}!
+        <b>$ {addedAmount.toLocaleString()}</b> points added to team <b>{teamName}</b>!
       </Modal.Body>
     </Modal>
   );

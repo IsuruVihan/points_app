@@ -14,7 +14,7 @@ const PointsSubbedModal: FC<PointsSubbedModalProps> = (props) => {
   return (
     <Modal show={isVisible} onHide={() => close()}>
       <Modal.Body className="text-center">
-        {subbedAmount} points subtracted from team {teamName}!
+        <b>$ {subbedAmount.toLocaleString()}</b> points subtracted from team <b>{teamName}</b>!
       </Modal.Body>
     </Modal>
   );

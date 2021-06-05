@@ -12,7 +12,7 @@ const MinusValuesModal: FC<MinusValuesModalProps> = (props) => {
   return (
     <Modal show={isVisible} onHide={() => close()}>
       <Modal.Body className="text-center">
-        Points cannot be negative!
+        Points cannot be <b>negative</b>!
       </Modal.Body>
     </Modal>
   );

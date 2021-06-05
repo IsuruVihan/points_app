@@ -4,7 +4,7 @@ import PointsApp from "./views/PointsApp";
 
 const App: FC = () => {
   return (
-    <PointsApp />
+    <PointsApp/>
   );
 }
 

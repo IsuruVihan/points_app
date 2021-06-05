@@ -129,7 +129,9 @@ const PointsApp: FC = () => {
           add={addPoints}
           sub={subPoints}
         />
-        <Leaderboard />
+        <Leaderboard
+          teamList={teamList}
+        />
       </Row>
     </Container>
   );

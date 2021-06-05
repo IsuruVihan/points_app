@@ -5,16 +5,32 @@
         .title {
           font-weight: 700;
         }
+
         .body {
           .team-row {
             .team-name {
               font-weight: 400;
             }
+
             .team-points {
               font-weight: 500;
             }
+
             &:hover {
               background-color: floralwhite;
+            }
+          }
+
+          .top-team-row {
+            background: forestgreen;
+            color: white;
+
+            .team-name {
+              font-weight: 400;
+            }
+
+            .team-points {
+              font-weight: 500;
             }
           }
         }
@@ -31,9 +47,16 @@
           .title {
             font-size: 2em;
           }
+
           .body {
             .team-row {
               .team-name, .team-points {
+                font-size: 1.1em;
+              }
+            }
+
+            .top-team-row {
+              .top-team-name, .top-team-points {
                 font-size: 1.1em;
               }
             }
@@ -52,9 +75,16 @@
           .title {
             font-size: 3em;
           }
+
           .body {
             .team-row {
               .team-name, .team-points {
+                font-size: 1.5em;
+              }
+            }
+
+            .top-team-row {
+              .top-team-name, .top-team-points {
                 font-size: 1.5em;
               }
             }
@@ -70,13 +100,21 @@
     .main-row {
       .leaderboard {
         border-left: 2px solid darkgray;
+
         .teams {
           .title {
             font-size: 2em;
           }
+
           .body {
             .team-row {
               .team-name, .team-points {
+                font-size: 1.1em;
+              }
+            }
+
+            .top-team-row {
+              .top-team-name, .top-team-points {
                 font-size: 1.1em;
               }
             }
@@ -95,9 +133,16 @@
           .title {
             font-size: 2.5em;
           }
+
           .body {
             .team-row {
               .team-name, .team-points {
+                font-size: 1.3em;
+              }
+            }
+
+            .top-team-row {
+              .top-team-name, .top-team-points {
                 font-size: 1.3em;
               }
             }
@@ -116,9 +161,16 @@
           .title {
             font-size: 3em;
           }
+
           .body {
             .team-row {
               .team-name, .team-points {
+                font-size: 1.5em;
+              }
+            }
+
+            .top-team-row {
+              .top-team-name, .top-team-points {
                 font-size: 1.5em;
               }
             }

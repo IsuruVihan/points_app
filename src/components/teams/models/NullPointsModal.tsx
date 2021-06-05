@@ -12,7 +12,7 @@ const NullPointsModal: FC<NullPointsModalProps> = (props) => {
   return (
     <Modal show={isVisible} onHide={() => close()}>
       <Modal.Body className="text-center">
-        Points field is required!
+        <b>Points</b> field is <b>required</b>!
       </Modal.Body>
     </Modal>
   );
