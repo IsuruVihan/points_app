@@ -1,0 +1,145 @@
+.main {
+  .main-row {
+    .teams {
+      .grid {
+        .team {
+          .details {
+            .team-name {
+              font-weight: 600;
+            }
+            .team-score {
+              font-weight: 500;
+            }
+          }
+          .points-form {
+            .score-input-container {
+              .score-input {
+                width: 100%;
+                border: 2px solid darkgray;
+              }
+            }
+            .buttons {
+              .button-group {
+                .sub-btn-container {
+                  .sub-btn {
+                    width: 5em;
+                  }
+                }
+                .add-btn-container {
+                  .add-btn {
+                    width: 5em;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main {
+    .main-row {
+      .teams {
+        .grid {
+          .team {
+            .details {
+              .team-name {
+                font-size: 1.7em;
+              }
+              .team-score {
+                font-size: 1em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .main {
+    .main-row {
+      .teams {
+        .grid {
+          .team {
+            .details {
+              .team-name {
+                font-size: 2em;
+              }
+              .team-score {
+                font-size: 1.2em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    .main-row {
+      .teams {
+        .grid {
+          .team {
+            .details {
+              .team-name {
+                font-size: 1.6em;
+              }
+              .team-score {
+                font-size: 0.9em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    .main-row {
+      .teams {
+        .grid {
+          .team {
+            .details {
+              .team-name {
+                font-size: 2em;
+              }
+              .team-score {
+                font-size: 1em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    .main-row {
+      .teams {
+        .grid {
+          .team {
+            .details {
+              .team-name {
+                font-size: 1.8em;
+              }
+              .team-score {
+                font-size: 1em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
