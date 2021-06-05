@@ -3,17 +3,20 @@
     .teams {
       .grid {
         .team {
+          &:hover {
+            background-color: lightgrey;
+          }
           .details {
             .team-name {
               font-weight: 600;
             }
-            .team-score {
+            .team-points {
               font-weight: 500;
             }
           }
           .points-form {
-            .score-input-container {
-              .score-input {
+            .points-input-container {
+              .points-input {
                 width: 100%;
                 border: 2px solid darkgray;
               }
@@ -49,7 +52,7 @@
               .team-name {
                 font-size: 1.7em;
               }
-              .team-score {
+              .team-points {
                 font-size: 1em;
               }
             }
@@ -70,7 +73,7 @@
               .team-name {
                 font-size: 2em;
               }
-              .team-score {
+              .team-points {
                 font-size: 1.2em;
               }
             }
@@ -91,7 +94,7 @@
               .team-name {
                 font-size: 1.6em;
               }
-              .team-score {
+              .team-points {
                 font-size: 0.9em;
               }
             }
@@ -112,7 +115,7 @@
               .team-name {
                 font-size: 2em;
               }
-              .team-score {
+              .team-points {
                 font-size: 1em;
               }
             }
@@ -133,7 +136,7 @@
               .team-name {
                 font-size: 1.8em;
               }
-              .team-score {
+              .team-points {
                 font-size: 1em;
               }
             }
