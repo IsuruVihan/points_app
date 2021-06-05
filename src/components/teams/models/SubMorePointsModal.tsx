@@ -14,7 +14,7 @@ const SubMorePointsModal: FC<SubMorePointsModalProps> = (props) => {
   return (
     <Modal show={isVisible} onHide={() => close()}>
       <Modal.Body className="text-center">
-        Cannot subtract more than {points} points from team {teamName}!
+        Cannot subtract more than <b>$ {points.toLocaleString()}</b> points from team <b>{teamName}</b>!
       </Modal.Body>
     </Modal>
   );

@@ -31,7 +31,7 @@ const Team: FC<TeamProps> = (props) => {
       );
       return;
     }
-    add(id, enteredPoints === undefined ? 0: parseInt(enteredPoints));
+    add(id, enteredPoints === undefined ? 0 : parseInt(enteredPoints));
     setEnteredPoints("");
   }
 
@@ -44,7 +44,7 @@ const Team: FC<TeamProps> = (props) => {
       );
       return;
     }
-    sub(id, enteredPoints === undefined ? 0: parseInt(enteredPoints));
+    sub(id, enteredPoints === undefined ? 0 : parseInt(enteredPoints));
     setEnteredPoints("");
   }
 
@@ -56,9 +56,9 @@ const Team: FC<TeamProps> = (props) => {
       />
       <Row className="mx-0 details">
         <Col className="px-0 team-name" xs={12}>{name}</Col>
-        <Col className="px-0 team-points" xs={12}>$ {points}</Col>
+        <Col className="px-0 team-points" xs={12}>$ {points.toLocaleString()}</Col>
       </Row>
-      <Row  className="mx-0 points-form">
+      <Row className="mx-0 points-form">
         <Col className="px-0 pt-3 points-input-container" xs={12}>
           <CurrencyInput
             className="points-input"
@@ -90,7 +90,7 @@ const Team: FC<TeamProps> = (props) => {
               <Button
                 className="add-btn float-right"
                 size="sm"
-                variant="success"
+                variant="primary"
                 onClick={() => handleOnClickAddPoints()}
               >
                 Add
